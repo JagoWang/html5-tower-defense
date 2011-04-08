@@ -173,7 +173,7 @@ var _TD = {
 			 * @param e
 			 */
 			getEventXY: function (e) {
-				var wra = TD.lang.$e("wrapper"),
+				var wra = TD.lang.$e("container"),
 					x = e.clientX - wra.offsetLeft - this.canvas.offsetLeft + Math.max(document.documentElement.scrollLeft, document.body.scrollLeft),
 					y = e.clientY - wra.offsetTop - this.canvas.offsetTop + Math.max(document.documentElement.scrollTop, document.body.scrollTop);
 
