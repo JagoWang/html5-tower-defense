@@ -29,6 +29,26 @@
 	color: #fff;
 	line-height: 24px;
 }
+.td-container .td-main {
+	width: 768px;
+	height: 576px;
+	overflow: hidden;
+	float: left;
+}
+.td-container .td-main .td-map {
+	width: 768px;
+	height: 576px;
+	overflow: hidden;
+	position: relative;
+}
+.td-container .td-panel {
+	width: 192px;
+	height: 576px;
+	overflow: hidden;
+	float: left;
+	background: #eee;
+	position: relative;
+}
 .td-container a {
 	text-decoration: none;
 }

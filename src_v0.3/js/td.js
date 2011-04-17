@@ -27,9 +27,19 @@ var _TD = {
 				TD.container = TD.Dom.get(container);
 				if (!TD.container) return;
 
+				// TODO 判断当前浏览器是否支持 canvas
+
 				TD.Dom.parse(TD.container, TD.html.container);
 
-				var stage_names = ["home", "options", "announcement", "battlefield", "about"], i;
+				var i,
+					stage_names = [
+						"home",
+						"options",
+						"announcement",
+						"battlefield",
+						"build",
+						"about"
+					];
 				for (i = 0; i < stage_names.length; i ++) {
 					new TD.Stage(stage_names[i]);
 				}

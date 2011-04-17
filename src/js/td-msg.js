@@ -27,7 +27,7 @@ _TD.a.push(function (TD) {
 		"panel_life_title": "生命: ",
 		"panel_building_title": "建筑: ",
 		"panel_monster_title": "怪物: ",
-		"building_name_block": "路障",
+		"building_name_wall": "路障",
 		"building_name_cannon": "炮台",
 		"building_name_LMG": "轻机枪",
 		"building_name_HMG": "重机枪",
